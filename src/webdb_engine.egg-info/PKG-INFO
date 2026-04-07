@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: webdb-engine
+Version: 0.1.0
+Summary: Web-as-Database intelligent automation engine
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: playwright>=1.44
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: alembic>=1.13
+Requires-Dist: httpx>=0.27
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: lxml>=5.2
+Requires-Dist: pandas>=2.2
+Requires-Dist: pyarrow>=16.0
+Requires-Dist: cryptography>=42.0
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: anyio>=4.3
+Requires-Dist: pydantic>=2.7
+Requires-Dist: pydantic-settings>=2.2
+Requires-Dist: structlog>=24.1
+Requires-Dist: numpy>=1.26
+Provides-Extra: postgres
+Requires-Dist: psycopg2-binary>=2.9; extra == "postgres"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
+
+# webdb-Engine
